@@ -1,0 +1,18 @@
+C:\Program Files\WinZip\wzzip  filename.zip  <list of files>
+
+For example, to zip the files(file1.pdf,  file2.pdf,  file3.pdf) into docs.zip, the command we should run is
+
+C:\Program Files\WinZip\wzzip docs.zip  file1.pdf file2.pdf file3.pdf
+In the above example, we have used 3 files, but you can specify as many files as you want.
+
+Unzip files
+
+The command for  unzipping files is:
+
+C:\Program Files\WinZip\wzunzip   zipfilename   destination_folder
+destination_folder is the directory where you want to keep the unzipped files.
+
+Example:
+We can unzip the file docs.zip to the directory E:\Documents as follows
+
+C:\Program Files\WinZip\wzunzip docs.zip E:\Documents
